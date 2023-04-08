@@ -16,8 +16,10 @@ for caseNum in range(cases):#runs a for loop for test cases
             print("No colors need to be mixed to make red.")
         
         if line == "violet" or line == "blue-violet" or line== "red-violet":
-            print("In order to make" +line+ ", blue and red must be mixed.")
+            print("In order to make "+ line+ ", blue and red must be mixed.")
+            
         if line == "blue-green" or line == "green" or line=="yellow-green":
-            print("In order to make"+line+ ", blue and yellow must be mixed.")
+            print("In order to make "+ line+ ", blue and yellow must be mixed.")
+            
         if line == "orange" or line == "red-orange" or line== "yellow-orange":
-            print("In order to make orange" +line+ ", red and yellow must be mixed.")
+            print("In order to make "+ line+ ", red and yellow must be mixed.")
